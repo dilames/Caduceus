@@ -1,0 +1,16 @@
+
+import UIKit
+{% for type in types.all %}
+{% if type.name == "R.color" %}
+
+extension UIColor {
+	// Generated. Do not touch
+{% for variable in type.variables|static %}
+
+	static var {{variable.name}}: UIColor {
+		return UIKit.UIColor(resource: R.color.{{variable.name}}, compatibleWith: nil)!
+    }
+{% endfor %}
+}
+{% endif %}
+{% endfor %}

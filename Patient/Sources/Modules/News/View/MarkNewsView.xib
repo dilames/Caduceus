@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="iN0-l3-epB" customClass="MarkNewsView" customModule="Patient" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <visualEffectView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ovU-4S-pLI">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="8bZ-6R-pL9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="100"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="13" translatesAutoresizingMaskIntoConstraints="NO" id="pz6-rt-DUn">
+                                <rect key="frame" x="26" y="6" width="199" height="88"/>
+                                <string key="text">Відмітити новину якзбережену</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" name="steelTwo"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W0z-Kz-PtT" customClass="IndicatedButton" customModule="Patient" customModuleProvider="target">
+                                <rect key="frame" x="235" y="33" width="120" height="34"/>
+                                <color key="backgroundColor" name="white98"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="OgK-Qx-ePD"/>
+                                    <constraint firstAttribute="height" constant="34" id="TYl-k7-SDF"/>
+                                </constraints>
+                                <state key="normal" title="Відмітити">
+                                    <color key="titleColor" name="steelTwo"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="17"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="W0z-Kz-PtT" secondAttribute="trailing" constant="20" id="4Qx-Bc-Rxq"/>
+                            <constraint firstItem="pz6-rt-DUn" firstAttribute="leading" secondItem="8bZ-6R-pL9" secondAttribute="leading" constant="26" id="HBC-nD-ieq"/>
+                            <constraint firstItem="W0z-Kz-PtT" firstAttribute="centerY" secondItem="8bZ-6R-pL9" secondAttribute="centerY" id="cAg-RV-M3R"/>
+                            <constraint firstAttribute="bottom" secondItem="pz6-rt-DUn" secondAttribute="bottom" constant="6" id="i7e-sV-wms"/>
+                            <constraint firstItem="pz6-rt-DUn" firstAttribute="top" secondItem="8bZ-6R-pL9" secondAttribute="top" constant="6" id="lfi-CN-IUh"/>
+                            <constraint firstItem="W0z-Kz-PtT" firstAttribute="leading" secondItem="pz6-rt-DUn" secondAttribute="trailing" constant="10" id="xc7-TS-ul3"/>
+                        </constraints>
+                    </view>
+                    <blurEffect style="extraLight"/>
+                </visualEffectView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="ovU-4S-pLI" firstAttribute="bottom" secondItem="iN0-l3-epB" secondAttribute="bottom" id="cBO-T9-04G"/>
+                <constraint firstAttribute="trailing" secondItem="ovU-4S-pLI" secondAttribute="trailing" id="hKF-e4-cZJ"/>
+                <constraint firstItem="ovU-4S-pLI" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="lYO-dZ-YB8"/>
+                <constraint firstItem="ovU-4S-pLI" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="qrb-En-obA"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                    <color key="value" name="pinkishGray"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                    <real key="value" value="0.5"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <connections>
+                <outlet property="markButton" destination="W0z-Kz-PtT" id="Fiw-6F-J2Y"/>
+                <outlet property="titleLabel" destination="pz6-rt-DUn" id="Jq5-eP-3g0"/>
+            </connections>
+            <point key="canvasLocation" x="33.5" y="-230"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="pinkishGray">
+            <color red="0.75700002909999997" green="0.75700002909999997" blue="0.75700002909999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="steelTwo">
+            <color red="0.49019607843137253" green="0.51764705882352946" blue="0.5607843137254902" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="white98">
+            <color red="0.8666666666666667" green="0.8666666666666667" blue="0.8666666666666667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

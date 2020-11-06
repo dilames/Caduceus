@@ -1,0 +1,177 @@
+
+/* Class = "UILabel"; text = "Вигадайте пароль для входу в додаток"; ObjectID = "00x-wE-Hcu"; */
+"00x-wE-Hcu.text" = "Вигадайте пароль для входу в додаток";
+
+/* Class = "UIViewController"; title = "Етап 2"; ObjectID = "2JA-8r-b1f"; */
+"2JA-8r-b1f.title" = "Етап 2";
+
+/* Class = "UIButton"; normalTitle = "Реєстрація"; ObjectID = "3Yf-Rs-GSj"; */
+"3Yf-Rs-GSj.normalTitle" = "Реєстрація";
+
+/* Class = "UIButton"; normalTitle = "Продовжити"; ObjectID = "3vr-pm-Zha"; */
+"3vr-pm-Zha.normalTitle" = "Продовжити";
+
+/* Class = "UIViewController"; title = "Етап 4"; ObjectID = "44R-cL-RHr"; */
+"44R-cL-RHr.title" = "Етап 4";
+
+/* Class = "UITextField"; placeholder = "Пароль"; ObjectID = "4Ht-p9-hGM"; */
+"4Ht-p9-hGM.placeholder" = "Пароль";
+
+/* Class = "UITextField"; placeholder = "SMS-код"; ObjectID = "582-oX-r0K"; */
+"582-oX-r0K.placeholder" = "SMS-код";
+
+/* Class = "UIButton"; normalTitle = "Продовжити"; ObjectID = "6L3-wy-mbn"; */
+"6L3-wy-mbn.normalTitle" = "Продовжити";
+
+/* Class = "UITextField"; placeholder = "Відповісти"; ObjectID = "6aB-CU-sLV"; */
+"6aB-CU-sLV.placeholder" = "Відповісти";
+
+/* Class = "UILabel"; text = "Реєстрація"; ObjectID = "7VN-XN-pj6"; */
+"7VN-XN-pj6.text" = "Реєстрація";
+
+/* Class = "UIViewController"; title = "Обрати питання"; ObjectID = "AvZ-aq-cQF"; */
+"AvZ-aq-cQF.title" = "Обрати питання";
+
+/* Class = "UILabel"; text = "або"; ObjectID = "BCv-KK-rGw"; */
+"BCv-KK-rGw.text" = "або";
+
+/* Class = "UILabel"; text = "Реєстрація"; ObjectID = "Bqu-Fj-cQm"; */
+"Bqu-Fj-cQm.text" = "Реєстрація";
+
+/* Class = "UITextField"; placeholder = "Пароль"; ObjectID = "E5H-P6-98j"; */
+"E5H-P6-98j.placeholder" = "Пароль";
+
+/* Class = "UIButton"; normalTitle = "Забыли пароль?"; ObjectID = "G9r-CB-NRc"; */
+"G9r-CB-NRc.normalTitle" = "Забыли пароль?";
+
+/* Class = "UIButton"; normalTitle = "Продовжити"; ObjectID = "GTe-nt-Ps3"; */
+"GTe-nt-Ps3.normalTitle" = "Продовжити";
+
+/* Class = "UIViewController"; title = "Етап 3"; ObjectID = "GmN-pB-b20"; */
+"GmN-pB-b20.title" = "Етап 3";
+
+/* Class = "UILabel"; text = "Обрати питання"; ObjectID = "HU4-Dz-ovk"; */
+"HU4-Dz-ovk.text" = "Обрати питання";
+
+/* Class = "UIButton"; normalTitle = "Продовжити"; ObjectID = "IpC-a7-kUy"; */
+"IpC-a7-kUy.normalTitle" = "Продовжити";
+
+/* Class = "UILabel"; text = "Реєстрація"; ObjectID = "IuF-Lm-b8e"; */
+"IuF-Lm-b8e.text" = "Реєстрація";
+
+/* Class = "UILabel"; text = "Введите номер телефона"; ObjectID = "JVq-uW-NXb"; */
+"JVq-uW-NXb.text" = "Введите номер телефона";
+
+/* Class = "UIViewController"; title = "Етап 1"; ObjectID = "Lce-ml-lz9"; */
+"Lce-ml-lz9.title" = "Етап 1";
+
+/* Class = "UILabel"; text = "Введіть свої дані."; ObjectID = "Lgy-iW-FkQ"; */
+"Lgy-iW-FkQ.text" = "Введіть свої дані.";
+
+/* Class = "UIButton"; normalTitle = "Готово"; ObjectID = "MSU-Ww-Q6N"; */
+"MSU-Ww-Q6N.normalTitle" = "Готово";
+
+/* Class = "UITextField"; placeholder = "Номер телефону"; ObjectID = "OJh-9b-Re8"; */
+"OJh-9b-Re8.placeholder" = "Номер телефону";
+
+/* Class = "UILabel"; text = "Обрати питання"; ObjectID = "Qc0-Ep-zfn"; */
+"Qc0-Ep-zfn.text" = "Обрати питання";
+
+/* Class = "UILabel"; text = "Если код не пришел, нажмите на \nкнопку “Отправить еще раз”"; ObjectID = "R3b-G7-89g"; */
+"R3b-G7-89g.text" = "Если код не пришел, нажмите на \nкнопку “Отправить еще раз”";
+
+/* Class = "UIButton"; normalTitle = "Відправити ще раз"; ObjectID = "SHE-Ys-luD"; */
+"SHE-Ys-luD.normalTitle" = "Відправити ще раз";
+
+/* Class = "UIButton"; normalTitle = "Увійти як гість"; ObjectID = "SRC-Jn-OBS"; */
+"SRC-Jn-OBS.normalTitle" = "Увійти як гість";
+
+/* Class = "UITextField"; placeholder = "Номер телефона"; ObjectID = "UEg-8h-tKA"; */
+"UEg-8h-tKA.placeholder" = "Номер телефона";
+
+/* Class = "UILabel"; text = "або"; ObjectID = "Wcr-lh-Emw"; */
+"Wcr-lh-Emw.text" = "або";
+
+/* Class = "UIButton"; normalTitle = "Отправить еще раз"; ObjectID = "WnY-hc-Sxw"; */
+"WnY-hc-Sxw.normalTitle" = "Отправить еще раз";
+
+/* Class = "UIButton"; normalTitle = "Зберегти і почати користування"; ObjectID = "Xev-bc-tcy"; */
+"Xev-bc-tcy.normalTitle" = "Зберегти і почати користування";
+
+/* Class = "UILabel"; text = "Дата народження"; ObjectID = "YKX-L1-Qba"; */
+"YKX-L1-Qba.text" = "Дата народження";
+
+/* Class = "UITextField"; placeholder = "Ім’я"; ObjectID = "cxy-q3-wRu"; */
+"cxy-q3-wRu.placeholder" = "Ім’я";
+
+/* Class = "UIButton"; normalTitle = "Продовжити"; ObjectID = "dDx-v5-M72"; */
+"dDx-v5-M72.normalTitle" = "Продовжити";
+
+/* Class = "UIButton"; normalTitle = "Вхід"; ObjectID = "dhF-rZ-4G7"; */
+"dhF-rZ-4G7.normalTitle" = "Вхід";
+
+/* Class = "UILabel"; text = "Повторіть пароль для його підтвердження "; ObjectID = "f70-lF-iKR"; */
+"f70-lF-iKR.text" = "Повторіть пароль для його підтвердження ";
+
+/* Class = "UILabel"; text = "CADUCEUS"; ObjectID = "gkA-V9-tSS"; */
+"gkA-V9-tSS.text" = "CADUCEUS";
+
+/* Class = "UITextField"; placeholder = "По батькові"; ObjectID = "i4c-Tq-8AC"; */
+"i4c-Tq-8AC.placeholder" = "По батькові";
+
+/* Class = "UILabel"; text = "Стать:"; ObjectID = "kgT-u9-U6z"; */
+"kgT-u9-U6z.text" = "Стать:";
+
+/* Class = "UILabel"; text = "Реєстрація"; ObjectID = "lJU-9B-hr0"; */
+"lJU-9B-hr0.text" = "Реєстрація";
+
+/* Class = "UIViewController"; title = "Етап 1\n"; ObjectID = "mM7-zp-9wN"; */
+"mM7-zp-9wN.title" = "Етап 1\n";
+
+/* Class = "UISegmentedControl"; nhj-mm-iMt.segmentTitles[0] = "Чоловіча"; ObjectID = "nhj-mm-iMt"; */
+"nhj-mm-iMt.segmentTitles[0]" = "Чоловіча";
+
+/* Class = "UISegmentedControl"; nhj-mm-iMt.segmentTitles[1] = "Жіноча"; ObjectID = "nhj-mm-iMt"; */
+"nhj-mm-iMt.segmentTitles[1]" = "Жіноча";
+
+/* Class = "UILabel"; text = "Обрати питання"; ObjectID = "rbt-4R-mMJ"; */
+"rbt-4R-mMJ.text" = "Обрати питання";
+
+/* Class = "UITextField"; placeholder = "Прізвище"; ObjectID = "rt8-nr-TQR"; */
+"rt8-nr-TQR.placeholder" = "Прізвище";
+
+/* Class = "UITextField"; placeholder = "SMS-код"; ObjectID = "tbO-ot-f76"; */
+"tbO-ot-f76.placeholder" = "SMS-код";
+
+/* Class = "UILabel"; text = "Введіть ваш номер телефону.\n Вам буде надіслано одноразовий \nСМС-код для підтвердження. "; ObjectID = "tcn-1B-UOI"; */
+"tcn-1B-UOI.text" = "Введіть ваш номер телефону.\n Вам буде надіслано одноразовий \nСМС-код для підтвердження. ";
+
+/* Class = "UITextField"; placeholder = "Електронна пошта"; ObjectID = "tdJ-ci-Tbj"; */
+"tdJ-ci-Tbj.placeholder" = "Електронна пошта";
+
+/* Class = "UILabel"; text = "Оберіть три секретні питання та вкажіть відповіді на них."; ObjectID = "ujI-a0-jM7"; */
+"ujI-a0-jM7.text" = "Оберіть три секретні питання та вкажіть відповіді на них.";
+
+/* Class = "UILabel"; text = "Введіть ваш номер телефону.\n Вам буде надіслано одноразовий \nСМС-код для підтвердження. "; ObjectID = "v4w-Cc-6u5"; */
+"v4w-Cc-6u5.text" = "Введіть ваш номер телефону.\n Вам буде надіслано одноразовий \nСМС-код для підтвердження. ";
+
+/* Class = "UILabel"; text = "Введіть СМС-код. Якщо він не надійшов, натисніть на кнопку “Відправити ще раз”."; ObjectID = "vtU-ae-2re"; */
+"vtU-ae-2re.text" = "Введіть СМС-код. Якщо він не надійшов, натисніть на кнопку “Відправити ще раз”.";
+
+/* Class = "UITextField"; placeholder = "Відповісти"; ObjectID = "xXt-JT-0Y4"; */
+"xXt-JT-0Y4.placeholder" = "Відповісти";
+
+/* Class = "UIButton"; normalTitle = "Продовжити"; ObjectID = "yIi-Ds-nWH"; */
+"yIi-Ds-nWH.normalTitle" = "Продовжити";
+
+/* Class = "UILabel"; text = "Введите SMS-код"; ObjectID = "z7T-ic-Cha"; */
+"z7T-ic-Cha.text" = "Введите SMS-код";
+
+/* Class = "UIViewController"; title = "Етап 2"; ObjectID = "zOw-0N-2kN"; */
+"zOw-0N-2kN.title" = "Етап 2";
+
+/* Class = "UITextField"; placeholder = "Відповісти"; ObjectID = "zv3-Jc-sAW"; */
+"zv3-Jc-sAW.placeholder" = "Відповісти";
+
+/* Class = "UITextField"; placeholder = "Повтор пароля"; ObjectID = "zym-1G-vCi"; */
+"zym-1G-vCi.placeholder" = "Повтор пароля";

@@ -1,0 +1,7 @@
+sources:
+  - ./
+  - ../Domain/Resources/Templates/Templates.swift
+templates:
+  - ../Domain/Resources/Templates
+output:
+  Resources/Generated

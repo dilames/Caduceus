@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="AqD-I6-RwH">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="VQd-WC-lIi">
+            <objects>
+                <tabBarController storyboardIdentifier="TabBarController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="AqD-I6-RwH" customClass="TabBarController" customModule="Patient" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="blr-WJ-guf">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FZ5-AJ-0Fm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="196" y="77"/>
+        </scene>
+        <!--Side Menu Controller-->
+        <scene sceneID="Ure-D7-Xuy">
+            <objects>
+                <viewController storyboardIdentifier="SideMenuController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xqb-Ii-uWd" customClass="SideMenuController" customModule="Patient" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UjU-AT-9u5">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="cqj-Km-KHR">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="separatorColor" red="0.88235294117647056" green="0.88235294117647056" blue="0.88235294117647056" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <inset key="separatorInset" minX="20" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="xqb-Ii-uWd" id="52V-Au-0Mm"/>
+                                    <outlet property="delegate" destination="xqb-Ii-uWd" id="JHv-XF-CFj"/>
+                                </connections>
+                            </tableView>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dpx-fr-aB6" customClass="VisualEffectView" customModule="VisualEffectView">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="bde-GZ-umz">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="20"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="20" id="HIL-vb-eZp"/>
+                                </constraints>
+                                <blurEffect style="extraLight"/>
+                            </visualEffectView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="cqj-Km-KHR" firstAttribute="leading" secondItem="UjU-AT-9u5" secondAttribute="leading" id="30i-qB-wT3"/>
+                            <constraint firstItem="Dpx-fr-aB6" firstAttribute="leading" secondItem="z3S-cQ-HXy" secondAttribute="leading" id="IKz-Mu-zI1"/>
+                            <constraint firstItem="Dpx-fr-aB6" firstAttribute="top" secondItem="UjU-AT-9u5" secondAttribute="top" id="Smt-dH-WxH"/>
+                            <constraint firstItem="cqj-Km-KHR" firstAttribute="top" secondItem="UjU-AT-9u5" secondAttribute="top" id="dRu-4Z-Fxy"/>
+                            <constraint firstItem="z3S-cQ-HXy" firstAttribute="trailing" secondItem="Dpx-fr-aB6" secondAttribute="trailing" id="lfs-ji-9kM"/>
+                            <constraint firstAttribute="trailing" secondItem="cqj-Km-KHR" secondAttribute="trailing" id="pnS-to-hAV"/>
+                            <constraint firstAttribute="bottom" secondItem="cqj-Km-KHR" secondAttribute="bottom" id="rCh-LF-fQw"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="z3S-cQ-HXy"/>
+                    </view>
+                    <connections>
+                        <outlet property="statusBarBlurView" destination="Dpx-fr-aB6" id="k8k-Oj-KPE"/>
+                        <outlet property="tableView" destination="cqj-Km-KHR" id="Amj-Qq-2Us"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gsx-V8-5GB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="980" y="68"/>
+        </scene>
+    </scenes>
+</document>

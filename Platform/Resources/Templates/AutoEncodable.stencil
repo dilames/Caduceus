@@ -1,0 +1,29 @@
+import Foundation
+import RealmSwift
+
+// Generated. Do not edit.
+{% for type in types.implementing.AutoEncodable %}
+{% if type.name != "AutoCodable" %}
+
+extension {{type.name}} {
+    func encode(to encoder: Encoder) throws {
+		var container = encoder.container(keyedBy: CodingKeys.self)
+    {% for variable in type.variables|stored %}
+    {% if variable.isOptional %}
+    {% if variable.unwrappedTypeName == "Date" %}
+        try container.encodeDateIfPresent({{variable.name}}, with: dateFormatter, forKey: .{{variable.name}})
+    {% else %}
+        try container.encodeIfPresent({{variable.name}}, forKey: .{{variable.name}})
+    {% endif %}
+    {% else %}
+    {% if variable.unwrappedTypeName == "Date" %}
+        try container.encodeDate({{variable.name}}, with: dateFormatter, forKey: .{{variable.name}})
+    {% else %}
+        try container.encode({{variable.name}}, forKey: .{{variable.name}})
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+    }
+}
+{% endif %}
+{% endfor %}

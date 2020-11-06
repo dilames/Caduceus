@@ -1,0 +1,19 @@
+// swiftlint:disable file_length
+// swiftlint:disable line_length
+// swiftlint:disable large_tuple
+
+import Foundation
+
+{% for type in types.implementing.AutoTupleInitializable %}
+public extension {{type.name}} {
+	public typealias Arguments = ({% for variable in type.storedVariables %}{{variable.typeName}}{% if not forloop.last %}, {% endif %}{% endfor %})
+    public init(_ arguments: Arguments) {
+        {% for variable in type.storedVariables %}
+        {{variable.name}} = arguments.{{forloop.counter0}}
+        {% endfor %}
+    }
+}
+{% if not forloop.last %}
+
+{% endif %}
+{% endfor %}

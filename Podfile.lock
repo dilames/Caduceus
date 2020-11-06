@@ -1,0 +1,122 @@
+PODS:
+  - Alamofire (5.2.2)
+  - AlamofireImage (4.1.0):
+    - Alamofire (~> 5.1)
+  - AlamofireNetworkActivityIndicator (3.1.0):
+    - Alamofire (~> 5.1)
+  - Dwifft (0.9)
+  - GoogleMaps (3.10.0):
+    - GoogleMaps/Maps (= 3.10.0)
+  - GoogleMaps/Base (3.10.0)
+  - GoogleMaps/Maps (3.10.0):
+    - GoogleMaps/Base
+  - KeychainAccess (4.2.0)
+  - Moya (14.0.0):
+    - Moya/Core (= 14.0.0)
+  - Moya/Core (14.0.0):
+    - Alamofire (~> 5.0)
+  - Moya/ReactiveSwift (14.0.0):
+    - Moya/Core
+    - ReactiveSwift (~> 6.0)
+  - PhoneNumberKit (3.2.0):
+    - PhoneNumberKit/PhoneNumberKitCore (= 3.2.0)
+    - PhoneNumberKit/UIKit (= 3.2.0)
+  - PhoneNumberKit/PhoneNumberKitCore (3.2.0)
+  - PhoneNumberKit/UIKit (3.2.0):
+    - PhoneNumberKit/PhoneNumberKitCore
+  - R.swift (5.2.2):
+    - R.swift.Library (~> 5.2.0)
+  - R.swift.Library (5.2.0)
+  - ReactiveCocoa (11.0.0):
+    - ReactiveSwift (~> 6.2)
+  - ReactiveSwift (6.3.0)
+  - Realm (5.4.1):
+    - Realm/Headers (= 5.4.1)
+  - Realm/Headers (5.4.1)
+  - RealmSwift (5.4.1):
+    - Realm (= 5.4.1)
+  - Reqres (3.1.1)
+  - Result (5.0.0)
+  - SideMenu (6.4.9)
+  - Sourcery (1.0.0)
+  - SwiftLint (0.40.2)
+  - UIWindowTransitions (0.2.0)
+  - Validator (3.2.1)
+  - VisualEffectView (4.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireImage
+  - AlamofireNetworkActivityIndicator
+  - Dwifft
+  - GoogleMaps
+  - KeychainAccess
+  - Moya
+  - Moya/ReactiveSwift
+  - PhoneNumberKit
+  - R.swift
+  - R.swift.Library (= 5.2.0)
+  - ReactiveCocoa
+  - ReactiveSwift
+  - RealmSwift (~> 5.4.1)
+  - Reqres
+  - Result
+  - SideMenu
+  - Sourcery
+  - SwiftLint
+  - UIWindowTransitions
+  - Validator
+  - VisualEffectView
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AlamofireImage
+    - AlamofireNetworkActivityIndicator
+    - Dwifft
+    - GoogleMaps
+    - KeychainAccess
+    - Moya
+    - PhoneNumberKit
+    - R.swift
+    - R.swift.Library
+    - ReactiveCocoa
+    - ReactiveSwift
+    - Realm
+    - RealmSwift
+    - Reqres
+    - Result
+    - SideMenu
+    - Sourcery
+    - SwiftLint
+    - UIWindowTransitions
+    - Validator
+    - VisualEffectView
+
+SPEC CHECKSUMS:
+  Alamofire: 814429acc853c6c54ff123fc3d2ef66803823ce0
+  AlamofireImage: c4a2ba349885fb3064feb74d2e547bd42ce9be10
+  AlamofireNetworkActivityIndicator: 6564782bd7b9e6c430ae67d9277af01907b01ca4
+  Dwifft: 42912068ed2a8146077d1a1404df18625bd086e1
+  GoogleMaps: 8c080862ff2748ece9929471b30feb56a6c5079d
+  KeychainAccess: 3f760109aa99b05d0f231e28b22642da7153e38a
+  Moya: 5b45dacb75adb009f97fde91c204c1e565d31916
+  PhoneNumberKit: df411d46177d1492da84e10b6c093846dd861452
+  R.swift: 7c52cdc57a66840ffe6cbd8a823d732059d42a32
+  R.swift.Library: 5ba4f1631300caf9a4d890186930da85d540769d
+  ReactiveCocoa: 189fcea9c5af7e394dd8a4cfc1c6f77af9ff3598
+  ReactiveSwift: 7937f26ec18d555e2a99352bd0a8b2817d1f042d
+  Realm: 7e887608ef1de2d0c3a33dd9b1449e08fc9d9807
+  RealmSwift: ef998d9b678fd74e047c56ef4d99d9b77e87c1eb
+  Reqres: 4ebafc15b75c65fdf67edcec14520d43b836d4da
+  Result: ed341d2f236af425b803e690e9bd8fd0a0cb7c5a
+  SideMenu: 8ef57a3cfc024a2d3fc1c036c7fe98537baec9e0
+  Sourcery: 928a146ea9b777fa64b0c6ce915c4128b4488cff
+  SwiftLint: 1216c910d27c2633ade33b4f071bb6b930982e62
+  UIWindowTransitions: cb662e2ae9e2d1060fcdbe3eb3de9232bedb7612
+  Validator: 80a6f567220c962dfd2d9928ae98a8c1d164f6f4
+  VisualEffectView: db9177590ddffe0c172199bc8b4d2663c319f1c4
+
+PODFILE CHECKSUM: 462b6ca2fb976bff6b636eeb37c17726f7af82ac
+
+COCOAPODS: 1.9.3

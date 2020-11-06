@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" rowHeight="100" id="KGk-i7-Jjw" customClass="FamilyMemberTVCell" customModule="Patient" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NHD-jd-AlH">
+                        <rect key="frame" x="0.0" y="10" width="320" height="79"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TwB-5X-Iwm">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="1"/>
+                                <color key="backgroundColor" red="0.90196078431372551" green="0.90196078431372551" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="TzI-JT-bq7"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Czh-ZR-hXq">
+                                <rect key="frame" x="0.0" y="78" width="320" height="1"/>
+                                <color key="backgroundColor" red="0.90196078431372551" green="0.90196078431372551" blue="0.92156862745098034" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="lyH-vV-uIE"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="user-icon" translatesAutoresizingMaskIntoConstraints="NO" id="hol-7Z-rYY">
+                                <rect key="frame" x="16" y="9.5" width="60" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="OVs-A7-AJG"/>
+                                    <constraint firstAttribute="height" constant="60" id="xtb-Yh-bSJ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FirstName LastName" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EOh-ip-jNX">
+                                <rect key="frame" x="86" y="30" width="218" height="19.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="16"/>
+                                <color key="textColor" name="battleshipGray"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hol-7Z-rYY" firstAttribute="leading" secondItem="NHD-jd-AlH" secondAttribute="leading" constant="16" id="7PP-Lz-xlH"/>
+                            <constraint firstItem="EOh-ip-jNX" firstAttribute="centerY" secondItem="hol-7Z-rYY" secondAttribute="centerY" id="C7K-uN-ETB"/>
+                            <constraint firstAttribute="trailing" secondItem="TwB-5X-Iwm" secondAttribute="trailing" id="Enh-B6-86a"/>
+                            <constraint firstItem="TwB-5X-Iwm" firstAttribute="top" secondItem="NHD-jd-AlH" secondAttribute="top" id="K67-Ad-D9c"/>
+                            <constraint firstAttribute="bottom" secondItem="Czh-ZR-hXq" secondAttribute="bottom" id="N56-pi-sCf"/>
+                            <constraint firstAttribute="trailing" secondItem="Czh-ZR-hXq" secondAttribute="trailing" id="Ry9-np-qIm"/>
+                            <constraint firstItem="Czh-ZR-hXq" firstAttribute="leading" secondItem="NHD-jd-AlH" secondAttribute="leading" id="YuR-cj-8Cn"/>
+                            <constraint firstItem="TwB-5X-Iwm" firstAttribute="leading" secondItem="NHD-jd-AlH" secondAttribute="leading" id="jz5-Sq-kZt"/>
+                            <constraint firstItem="hol-7Z-rYY" firstAttribute="centerY" secondItem="NHD-jd-AlH" secondAttribute="centerY" id="lCI-4x-aOE"/>
+                            <constraint firstAttribute="trailing" secondItem="EOh-ip-jNX" secondAttribute="trailing" constant="16" id="pIz-8Q-Bsa"/>
+                            <constraint firstItem="EOh-ip-jNX" firstAttribute="leading" secondItem="hol-7Z-rYY" secondAttribute="trailing" constant="10" id="uFU-S8-vB4"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.93333333333333335" green="0.93333333333333335" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="NHD-jd-AlH" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="HJt-aW-YwH"/>
+                    <constraint firstAttribute="bottom" secondItem="NHD-jd-AlH" secondAttribute="bottom" constant="10" id="LTQ-8a-8qC"/>
+                    <constraint firstItem="NHD-jd-AlH" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="RLf-dg-Q7S"/>
+                    <constraint firstAttribute="trailing" secondItem="NHD-jd-AlH" secondAttribute="trailing" id="XuR-Za-ndd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="nameLabel" destination="EOh-ip-jNX" id="Yss-7I-trR"/>
+                <outlet property="photoImageView" destination="hol-7Z-rYY" id="ebh-ac-Z5X"/>
+                <outlet property="userContentView" destination="NHD-jd-AlH" id="plG-ri-jMM"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="82"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="user-icon" width="28" height="28"/>
+        <namedColor name="battleshipGray">
+            <color red="0.43137254901960786" green="0.45882352941176469" blue="0.50980392156862742" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

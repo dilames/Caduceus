@@ -1,0 +1,33 @@
+/* 
+  Localizable.strings
+  Patient
+
+  Created by Andrew Chersky  on 2/19/18.
+  
+*/
+
+"back" = "Back";
+"ok" = "OK";
+"cancel" = "Cancel";
+"date.of.birth" = "Date of birth";
+"choose.question" = "Choose question";
+"choose.header.question" = "Question choice";
+"enter.question" = "Or select from the list";
+"today" = "Today";
+
+"choose.confirmation.type" = "Choose confirmation type";
+"confirmation.message" = "Message";
+"confirmation.call" = "Call";
+"phone.number" = "Phone number";
+"password" = "Password";
+
+"news" = "News";
+"marked.news.title" = "News is marked as saved";
+"not.marked.news.title" = "Mark news as saved";
+"mark" = "Mark";
+"marked" = "Marked";
+"map" = "Map";
+
+// Settings
+"edit.profile" = "Edit profile";
+"choose.map.style" = "Choose map style";

@@ -1,0 +1,30 @@
+import Foundation
+import RealmSwift
+
+// Generated. Do not edit.
+{% for type in types.implementing.AutoDecodable %}
+{% if type.name != "AutoCodable" %}
+
+extension {{type.name}} {
+    convenience init(from decoder: Decoder) throws {
+		self.init()
+		let container = try decoder.container(keyedBy: CodingKeys.self)
+	{% for variable in type.variables|stored %}
+	{% if variable.isOptional %}
+    {% if variable.unwrappedTypeName == "Date" %}
+        {{variable.name}} = try container.decodeDateIfPresent(dateFormatter, forKey: .{{variable.name}})
+    {% else %}
+        {{variable.name}} = try container.decodeIfPresent({{variable.unwrappedTypeName}}.self, forKey: .{{variable.name}})
+    {% endif %}
+    {% else %}
+    {% if variable.unwrappedTypeName == "Date" %}
+        {{variable.name}} = try container.decodeDate(dateFormatter, forKey: .{{variable.name}})
+    {% else %}
+        {{variable.name}} = try container.decode({{variable.unwrappedTypeName}}.self, forKey: .{{variable.name}})
+    {% endif %}
+    {% endif %}
+    {% endfor %}
+    }
+}
+{% endif %}
+{% endfor %}
